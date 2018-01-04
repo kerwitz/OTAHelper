@@ -1,0 +1,15 @@
+{
+    "name": "OTAHelper",
+    "keywords": "",
+    "description": "",
+    "version": "1.0.0",
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": ["espressif8266", "espressif8266_stage"],
+    "authors": {
+        "name": "Marco Kerwitz",
+        "email": "marco@kerwitz.com",
+        "url": "http://kerwitz.com",
+        "maintainer": true
+    }
+}

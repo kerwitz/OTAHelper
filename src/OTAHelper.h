@@ -8,7 +8,10 @@
 
 class OTAHelper {
     public:
-        OTAHelper(const char * deviceName);
+        OTAHelper();
+        OTAHelper(const char* deviceName);
+        
+        void setDeviceName(const char* deviceName);
         void handle();
         void setup();
         

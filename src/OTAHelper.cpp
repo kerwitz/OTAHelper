@@ -1,6 +1,16 @@
 #include "OTAHelper.h"
 
-OTAHelper::OTAHelper(const char * deviceName)
+OTAHelper::OTAHelper()
+{
+    // ..
+}
+
+OTAHelper::OTAHelper(const char* deviceName)
+{
+    setDeviceName(deviceName);
+}
+
+void OTAHelper::setDeviceName(const char* deviceName)
 {
     _deviceName = deviceName;
 }
